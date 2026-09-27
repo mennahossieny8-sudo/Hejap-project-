@@ -1,0 +1,70 @@
+body{
+  border:2px solid black;
+  border-radius: 10px;
+background-color: white;
+}
+
+
+/*start hesder*/
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+header h2{
+  background-color: purple;
+  color: ghostwhite;
+  width: 80px;
+  height: 35px;
+  border:2px solid plum;
+  text-align: center;
+  border-radius: 50px;
+  font-family:cursive;
+margin-top: 18px;
+margin-left: 20px;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+gap: 15px;
+padding-top: 12px;
+padding-right: 9px;
+}
+
+header a{
+  text-decoration:none;
+color: #000;
+  font-size: 18px;
+}
+header a:hover{
+  color: purple;
+
+}
+
+
+/* end hesder*/
+
+
+/*start section*/
+.r img {
+  margin-top: 200px;
+}
+.r h2{
+color: grey;
+text-align: center;
+margin-bottom: 150px;
+}
+
+/* end section*/
+
+
+/*start text*/
+.d h2{
+  text-align: center;
+  color: purple;
+  margin-bottom: 50px;
+  
+}
+
+/*end text*/

@@ -1,0 +1,226 @@
+body{
+  border:2px solid black;
+  border-radius: 10px;
+background-color: white;
+}
+
+
+/*start hesder*/
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+header h2{
+  background-color: purple;
+  color: ghostwhite;
+  width: 80px;
+  height: 35px;
+  border:2px solid plum;
+  text-align: center;
+  border-radius: 50px;
+  font-family:cursive;
+margin-top: 18px;
+margin-left: 20px;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+gap: 15px;
+padding-top: 12px;
+padding-right: 9px;
+}
+
+header a{
+  text-decoration:none;
+color: #000;
+  font-size: 18px;
+}
+header a:hover{
+  color: purple;
+
+}
+
+
+/* end hesder*/
+
+
+
+
+
+/*start section*/
+
+.m{
+  display: flex;
+  justify-content: space-between;
+margin-top:60px;
+}
+
+.m div{
+padding-right: 5px;
+}
+
+.m img{
+ width: 240px;
+ height: 90%;
+ 
+
+margin-left: 9px;
+}
+.m h2{
+  text-align: center;
+  font-size: 26px;
+  padding-right: 10px;
+  color: purple;
+}
+.m p{
+  text-align: center;
+  color: gray;
+  padding-right: 20px;
+  font-size: 15px;
+  width: 400px;
+  
+}
+
+.m h3{
+
+  text-align: center;
+  padding-right: 20px;
+  color: #777;
+  padding-top: 40px;
+  font-size: 17px;
+}
+/* End section*/
+
+
+
+
+
+/*start inform*/
+
+.s{
+padding-top: 80px;
+padding-right: 15px;
+padding-bottom:50px;
+}
+.s h4{
+  text-align: right;
+  font-size: 16px;
+  color: purple;
+  
+}
+.s h3{
+  color: black;
+  text-align: right;
+}
+
+.s li{
+direction:rtl;
+margin-right: 20px;
+font-size: 14px;
+color:grey ;
+}
+.s li:hover{
+  color:plum ;
+}
+/* End inform*/
+
+
+/*start description*/
+.o{
+  padding-right: 15px;
+}
+.o h2{ text-align: center;
+color: black;
+border-bottom: 3px solid black;
+width: 240px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+}
+.o p{
+  color: purple;
+  text-align: right;
+  font-size: 20px;
+}
+.o li{
+  direction: rtl;
+  font-size: 14px;
+  margin-right: 20px;
+  color: grey;
+}
+.o li:hover{
+  color: plum;
+}
+/* End description*/
+/*start Payment*/
+
+
+.y{
+  padding-right: 15px;
+  padding-top: 60px;
+}
+
+.y h2{ 
+  text-align: center;
+color: black;
+border-bottom: 3px solid black;
+width: 210px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+  
+}
+
+.y p{
+  color: purple;
+  text-align: right;
+  font-size: 20px;
+}
+.y li{
+  direction: rtl;
+  font-size: 14px;
+  margin-right: 20px;
+  color: gray ;
+}
+ .y li:hover{
+  color: plum;
+}
+
+
+/*End Payment*/
+
+
+
+
+
+
+/*start footer*/
+footer{
+  padding: 60px 0px;
+}
+footer h4{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+footer h3{
+  text-align: center;
+  background-color: white;
+  width: 200px;
+  margin-left: auto;
+margin-right: auto;
+  border:2px solid #000;
+  border-radius: 30px;
+  color:#000;
+  height: 25px;
+  padding-top: 5px;
+}
+footer h3:hover{
+color: white;
+background-color: #000;
+  
+}
+
+/* Endfooter*/
